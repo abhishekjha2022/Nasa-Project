@@ -11,6 +11,7 @@
     "install-client": "npm install --prefix client",
     "install": "npm run install-server && npm run install-client",
     "deploy": "npm run build --prefix client && npm start --prefix server",
+    "cluster-deploy": "npm run build --prefix client && npm run cluster --prefix server",
     "test": "npm test --prefix client && npm  test --prefix server"
   },
   "keywords": [],
